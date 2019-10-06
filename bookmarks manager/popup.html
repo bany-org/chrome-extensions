@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bookmarks manager</title>
+        <meta charset="UTF-8">
+        <script src="./jquery-3.3.1.min.js"></script>
+        <script src="./popup.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="manifest" href="./manifest.json">
+    </head>
+    <body>
+        <div class='header' >
+            <h1>Bookmarks manager</h1>
+        </div>
+
+        <div id="loginForm">
+            <h1>Zaloguj się: </h1>
+            <input id="loginEmail" type="text" placeholder="email" />
+            <input id="loginPassword" type="password" placeholder="password" />
+            <input id="loginSubmit" type="submit" value="Zaloguj" />
+        </div>
+
+        <div class="content">
+            <h4>Enter name for link: </h4>
+            <input type="text" id="linkName" autofocus>
+            <h4>Enter description:</h4>
+            <input type="checkbox" id="musicCheckbox" value="muzyka"><label for="musicCheckbox">Muzyka</label>
+            <input type="checkbox" id="programyCheckbox" value="programowanie"><label for="programyCheckbox">Programowanie</label>
+            <input type="checkbox" id="projektyCheckbox" value="projekty"><label for="projektyCheckbox">Projekty</label>
+            <input type="checkbox" id="radpointCheckbox" value="radpoint"><label for="radpointCheckbox">Radpoint</label>
+            <input type="text" id="linkDescription">
+            
+            
+            <input type="submit" id="saveButton" value="Save link"> 
+        </div>   
+
+        <div class="footer">
+            <h2>Logged as: <span id="user"></span></h2>
+            <input type="submit" id="logoutButton" value="Logout"> 
+        </div>
+        <hr />
+        <div>
+            Icons made by 
+            <a href="http://www.freepik.com" title="Freepik">Freepik</a> 
+            from 
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+            is licensed by 
+            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>   
+    </body>
+</html>

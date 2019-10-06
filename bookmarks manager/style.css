@@ -1,0 +1,30 @@
+body {
+    background-color: lightseagreen;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    display: none;
+    text-align: center;
+}
+
+.footer {
+    display: none;
+    text-align: center;
+}
+
+#user{
+    color: blue;
+    font-style: italic;
+}
+
+#saveButton{
+    background-color: lightcoral;
+}
+
+#loginForm {
+    display: block;
+}
